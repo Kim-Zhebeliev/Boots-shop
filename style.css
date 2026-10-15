@@ -21,7 +21,9 @@ nav{
 }
 .centred button{
     background-color: red;
-    margin: 4%;
+    color: white;
+    width: 30%;
+    padding: 2%;
 }
 h1{
     color: red;
