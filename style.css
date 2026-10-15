@@ -8,10 +8,11 @@ body{
 nav{
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+nav p{
+    font-size: large;
 }
 .centred{
     display: flex;
@@ -19,7 +20,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.centred button{
+button{
     background-color: red;
     color: white;
     width: 30%;
@@ -27,10 +28,29 @@ nav{
 }
 h1{
     color: red;
+    font-size: xx-large;
 }
 h2{
     font-weight: bold;
 }
 .baner{
     max-width: 100%;
+}
+.underline{
+    text-decoration: underline;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    max-width: 60%;
 }
